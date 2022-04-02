@@ -1,0 +1,29 @@
+# Server Setting
+server:
+  port: 9090
+  servlet.encoding:
+    charset: UTF-8
+    enabled: true
+    force: true
+  shutdown: graceful
+
+springdoc:
+  swagger-ui.path: /swagger-ui-custom.html
+  api-docs.path: /api-docs
+
+# Logging
+logging:
+  level:
+    root: error
+    org.apache: error
+    org.springframework.apache: trace
+    com.querydsl.sql: debug
+    org.springframework.web: error
+    org.apache.catalina: error
+
+x:
+  kafka-consumer:
+    noti:
+      topic: scc-noti-dev
+      group-id: noti-consumer-dev
+      channel-id: noti-consumer-dev

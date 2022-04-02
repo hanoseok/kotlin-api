@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kakao.aston.KotlinTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-10-16T09:47:31" hostname="hanoseok-MacBookPro.local" time="0.013">
+  <properties/>
+  <testcase name="test()" classname="com.kakao.aston.KotlinTest" time="0.013"/>
+  <system-out><![CDATA[null
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
